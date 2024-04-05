@@ -1,0 +1,97 @@
+/* Styles for header and navigation */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo img {
+    width: 100px; /* Adjust size as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content area */
+main {
+    padding: 20px;
+}
+
+/* Image box */
+.image-box {
+    text-align: center;
+}
+
+.image-box img {
+    width: 100%; /* Adjust size as needed */
+    max-width: 500px; /* Adjust max-width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* About Me */
+.bio-container {
+    display: flex;
+    align-items: center;
+}
+
+.bio-text {
+    flex: 1;
+    padding-right: 20px; /* Add spacing between text and image */
+}
+
+/* About Me */
+.profile-image {
+    border-radius: 10%; /* Make the image circular */
+}
+
+
+
+.bio-text {
+    max-width: 600px; /* Adjust max-width as needed */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone-number p {
+    margin: 0;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
