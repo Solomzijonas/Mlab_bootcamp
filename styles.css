@@ -117,3 +117,6 @@ footer {
     right: 20px; /* Adjust as needed */
     z-index: 9999; /* Ensure it appears on top of other content */
 }
+body {
+    background-color:hsl(28, 66%, 88%) /* Light cream color */
+}
