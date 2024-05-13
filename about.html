@@ -6,57 +6,177 @@
     <title>About Me</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!---bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!---remix-icons-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
-<body>
+<body class="about-page">
     <!-- Header and Navigation Container -->
     <div class="header-container">
         <!-- Logo -->
         <div class="logo">
-            <img src="/img/_4c99b5b7-01b7-4288-a2b8-32191af45c4f.jpg" alt="Logo">
+            <img src="/img/My Logo.jpg" alt="Logo">
         </div>
-        <h1>Welcome to S. Jonas's Portfolio</h1>
+        
         <!-- Navigation Bar -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Project</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
+        <div class="contact-icons">
+            <a href="https://github.com/Solomzijonas" class="social-link" title="Visit my github"><i class="ri-github-fill"></i></a>
+            <a href="https://www.facebook.com/SolomziSobhuza" title="Visit my Facebook" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link" title="Visit my Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/solomzijonas" class="social-link" title="Visit my LinkedIn"><i class="fab fa-linkedin"></i></a>
+          </div>
     </div>
     
     <!-- Main Content Area -->
     <main>
-        <!-- About Me Content -->
-        <div class="bio-container">
-            <div class="bio-text">
-                <h2>About Me</h2>
-                <p>I'm Solomzi Jonase, a passionate and dedicated individual with a keen interest in technology and innovation. With a background in Information & Communications Technonology, I bring a diverse set of skills to the table, including: <!---<li>Proficient in Microsoft suite, Python, C#, HTML, CSS.</li>------>
-                    <li>Strong attention to detail and accuracy.</li>
-                    <li>Excellent verbal and written communication skills.</li>
-                    <li>Ability to work independently and efficiently within a team environment.</li>
-                    <li>Good report writing skills.</li>
-                    <li>Analytical thinking and problem-solving ability.</li>
-                      <br> I'm always eager to learn and adapt to new challenges, and I thrive in collaborative environments where I can contribute my expertise and learn from others.</p>
-                <p>In my free time, I enjoy Tech and Formular 1, and I'm constantly exploring new ways to expand my knowledge and skills. I believe in the power of technology to drive positive change in the world, and I'm excited to be a part of that journey.</p>
+        <div class="about-section">
+             <h2>About Me</h2>
+        
+        <h2>Work Experience</h2>
+
+        <div class="workexperience-content">
+
+            <div class="work-item">
+                    <div class="work-title">
+                        <small><b>Junior Web Developer</b></small>
+                    </div>
+                    <div class="work-details">
+                        <div class="work-company">
+                            <small>Huawei</small>
+                        </div>
+                        <div class="work-location">
+                            <i class="ri-map-pin-fill"></i>
+                            <small></i>Johannesburg</small>
+                        </div>
+                    </div>
+                    <div class="work-duration">
+                        <button class="btn-workexperience">Full time</button>
+                        <div class="work-date">
+                            <i class="ri-calendar-line"></i>
+                            <small>Aug 2023 - Apr 2024</small>
+                        </div>
+                    </div>
             </div>
-            <div class="profile-image">
-                <img src="/img/LONDI.jpg" alt="Profile Image">
+                
+            <div class="work-item">
+                    <div class="work-title">
+                        <small><b>Student developer</b></small>
+                    </div>
+                    <div class="work-details">
+                        <div class="work-company">
+                            <small>UKZN</small>
+                        </div>
+                        <div class="work-location">
+                            <i class="ri-map-pin-fill"></i>
+                            <small>Durban</small>
+                        </div>
+                    </div>
+                    <div class="work-duration">
+                        <button class="btn-workexperience">Full time</button>
+                        <div class="work-date">
+                            <i class="ri-calendar-line"></i>
+                            <small>Sep 2022 - Mar 2023</small>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="work-item">
+                    <div class="work-title">
+                        <small><b>IT Lab Assistant</b></small>
+                    </div>
+                    <div class="work-details">
+                        <div class="work-company">
+                            <small>D U T</small>
+                        </div>
+                        <div class="work-location">
+                            <i class="ri-map-pin-fill"></i>
+                            <small>Durban</small>
+                        </div>
+                    </div>
+                    <div class="work-duration">
+                        <button class="btn-workexperience">Full time</button>
+                        <div class="work-date">
+                            <i class="ri-calendar-line"></i>
+                            <small>April 2022 - Dec 2022</small>
+                        </div>
+                    </div>
             </div>
         </div>
-    </main>
+        
+        <div class="education">
+            <h2><i class="ri-graduation-cap-line"></i>Education</h2>
+    <div class="education-experience-content">
+        <div class="education-item">
+            <div class="education-title">
+                <small><b>Advanced Diploma in ICT</b></small>
+            </div>
+            <div class="education-details">
+                <div class="education-level">
+                    <small>In progress</small>
+                </div>
+                <div class="education-location">
+                    <i class="ri-map-pin-fill"></i>
+                    <small>D U T</small>
+                </div>
+            </div>
+            <div class="education-duration">
+                <button class="btn-workexperience">Full time</button>
+                <div class="education-date">
+                    <i class="ri-calendar-line"></i>
+                    <small>Feb 2023 - Dec 2024</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="education-item">
+            <div class="education-title">
+                <small><b>Diploma in ICT Application Development</b></small>
+            </div>
+            <div class="education-details">
+                <div class="education-level">
+                    <small>Completed</small>
+                </div>
+                <div class="education-location">
+                    <i class="ri-map-pin-fill"></i>
+                    <small>D U T</small>
+                </div>
+            </div>
+            <div class="education-duration">
+                <button class="btn-workexperience">Full time</button>
+                <div class="education-date">
+                    <i class="ri-calendar-line"></i>
+                    <small>Feb 2020 - Dec 2022</small>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </main>  
+    
+</body>
+</html>
 
      <!-- Footer -->
-     <footer>
+     <!---<footer>
         <div class="footer-content">
             <div class="social-media">
-                <a href="https://www.facebook.com/SolomziSobhuza" class="social-link"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/solomzijonas" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/SolomziSobhuza" title="Visit Example.com" class="social-link"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="#" class="social-link" title="Visit Example.com"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#" class="social-link" title="Visit Example.com"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://www.linkedin.com/in/solomzijonas" class="social-link" title="Visit Example.com"><i class="fab fa-linkedin"></i> LinkedIn</a>
             </div>
         </div>
-        <p>&copy; 2024 Mdineka kaSobhuza</p>    
-    </footer>
+        <p>&copy; 2024 inc. copyright.</p>    
+    </footer>--->
 
 </html>
